@@ -1,2 +1,0 @@
-# chapinb.github.io
-Website
