@@ -83,9 +83,11 @@
               <p class="card-text">
                 Luminaut is a utility to scope cloud environment exposure for triage. The goal is to quickly identify exposed resources and collect information to start an investigation.
                 <br />
-                Starting from the public IP addresses of AWS Elastic Network Interfaces (ENIs), Luminaut gathers information about the associated EC2 instances, load balancers, security groups, and related events. The framework also includes active scanning tools like nmap and whatweb, to identify services running on exposed ports, and passive sources like Shodan.
+                Starting from public IP addresses of AWS and GCP resources, Luminaut gathers information about associated instances, load balancers, security groups, and related events. The framework also includes active scanning tools like nmap and whatweb, to identify services running on exposed ports, and passive sources like Shodan.
                 <br />
                 By combining cloud configuration data with external sources, Luminaut provides context to guide the next steps of an investigation.
+                <br />
+                Presented at ShmooCon 2025, BSides Las Vegas 2025, and Black Hat Arsenal 2025.
               </p>
               <a class="btn btn-primary" href="https://pypi.org/p/luminaut">
                 <i class="bi bi-github"></i>
