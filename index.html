@@ -5,6 +5,17 @@
     <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
     <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.min.css">
+    <style>
+      .badge-outline {
+        border: 1px solid currentColor;
+        background: transparent;
+        text-decoration: none;
+      }
+      .badge-outline:hover {
+        background-color: var(--bs-primary);
+        color: white !important;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
@@ -87,7 +98,10 @@
                 <br />
                 By combining cloud configuration data with external sources, Luminaut provides context to guide the next steps of an investigation.
                 <br />
-                Presented at ShmooCon 2025, BSides Las Vegas 2025, and Black Hat Arsenal 2025.
+                Presented at
+                <a class="badge badge-outline text-primary" href="https://www.youtube.com/watch?v=-_jUZBMeU5w&t=16700s"><i class="bi bi-youtube"></i> ShmooCon 2025</a>
+                <a class="badge badge-outline text-primary" href="https://www.youtube.com/live/goERQMqAv50?si=YtMBXI9AGp7EqWy1&t=15856"><i class="bi bi-youtube"></i> BSides Las Vegas 2025</a>
+                <a class="badge badge-outline text-primary" href="https://www.blackhat.com/us-25/arsenal/schedule/index.html#luminaut-casting-light-on-shadow-cloud-deployments-45489"><i class="bi bi-terminal-plus"></i> Black Hat Arsenal 2025</a>
               </p>
               <a class="btn btn-primary" href="https://pypi.org/p/luminaut">
                 <i class="bi bi-github"></i>
